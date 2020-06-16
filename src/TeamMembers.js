@@ -1,4 +1,5 @@
 import React from 'react'
+import swal from 'sweetalert'
 
 export default function Associate(props){
     const {details} = props
@@ -12,6 +13,7 @@ export default function Associate(props){
             <h2>{details.name}</h2>
             <p>Email: {details.email}</p>
             <p>Role: {details.role}</p>
+            <button onClick={() => swal('Holla - sweet alert, huh?', 'I am still working on this feature')}> Edit da deets </button>
         </div>
     )
 }

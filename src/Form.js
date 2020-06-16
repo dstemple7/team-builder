@@ -10,12 +10,11 @@ export default function Form(props) {
     return (
         <form className='form container' onSubmit={onSubmit}>
             <div className='form-group submit'>
-                <h2>Add a Team Member</h2>
-                <button>Submit</button>
+                <h2>Add a Cool Peep</h2>
             </div>
 
             <div className='form-group inputs'>
-                <h4>Add Some More Info</h4>
+                <h4 style={{'font-style':'italic'}}>(pls gimme some personal deets that I can sell w/o ur permission to da FAANGs) </h4>
                 <label>Name:&nbsp;
                     <input
                         type='text'
@@ -50,6 +49,8 @@ export default function Form(props) {
                     </select>
                 </label>
             </div>
+            <br></br>
+            <button>Submit da Deets</button>
         </form>
     )
 }

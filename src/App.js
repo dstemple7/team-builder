@@ -8,7 +8,7 @@ const initialTeamList = [
   {
       id:uuid(),
       name: 'Donald Chump',
-      email: 'cantuseapc@prezzi.gov',
+      email: 'cantuseapc@prezzi.com',
       role: 'Unemployed (Coming Soon)',
   },
 ]
@@ -58,7 +58,7 @@ export default function App() {
      
       <header className="App-header">
         <div className="titleBucket">
-            <h1>Team Builder</h1>
+            <h1>Da Cool Peeps Collector</h1>
           </div>
         </header>
 
