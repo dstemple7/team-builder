@@ -2,10 +2,13 @@
   text-align: center;
 }
 
-.App-header {
-  background-color: grey;
-}
+.titleBucket{
+  display:flex;
+  justify-content:center;
+  }
 
-.App-link {
-  color: #61dafb;
+  h1{
+  background-image: linear-gradient(to left, violet, indigo, blue, green, gold,  orange, red);
+  -webkit-background-clip: text;
+  color: transparent;  
 }

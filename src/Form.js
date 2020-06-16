@@ -24,6 +24,8 @@ export default function Form(props) {
                         onChange={onInputChange}
                     />
                 </label>
+                &nbsp;
+                &nbsp;
                 <label>Email:&nbsp;
                     <input 
                         id='emailInput'
@@ -33,6 +35,8 @@ export default function Form(props) {
                         onChange={onInputChange}                    
                     />
                 </label>
+                &nbsp;
+                &nbsp;
                 <label>Role:&nbsp;
                     <select 
                         name='role'

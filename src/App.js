@@ -7,7 +7,7 @@ import './App.css'
 const initialTeamList = [
   {
       id:uuid(),
-      name: 'Donald T',
+      name: 'Donald Chump',
       email: 'cantuseapc@prezzi.gov',
       role: 'Unemployed (Coming Soon)',
   },
@@ -15,7 +15,7 @@ const initialTeamList = [
 
 const initialFormValues = {
   name: '',
-  mail: '',
+  email: '',
   role: '',
 }
 
@@ -55,7 +55,13 @@ export default function App() {
 
   return (
     <div className="App">
-      <header className="App-header">Team Builder</header>
+     
+      <header className="App-header">
+        <div className="titleBucket">
+            <h1>Team Builder</h1>
+          </div>
+        </header>
+
       <Form
         values={formValues}
         onInputChange={onInputChange}
